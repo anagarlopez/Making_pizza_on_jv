@@ -12,7 +12,7 @@ let pizzaLista = "Sacar la pizza del horno, cuando el borde esté algo tostado, 
 
 //Instrucciones
 function comprarMasa() {
-    console.log("1. Ir al supermercado a comprar una: " + masaDePizza +  ", y conseguir los siguientes ingredientes: " + comprarIngredientesngredientes)
+    console.log("1. Ir al supermercado a comprar una: " + masaPizza +  ", y conseguir los siguientes ingredientes: " + comprarIngredientes)
 }
 
 function preHeat() {
@@ -20,7 +20,7 @@ function preHeat() {
 }
 
 function amasado() {
-    console.log("3. A continuación " + amasar + " y después " + extenderMasa " y " + ingredientes);
+    console.log("3. A continuación " + amasar + " y después " + extenderMasa + " y " + ingredientes);
 }
 
 function add() {
@@ -35,10 +35,12 @@ function comer() {
     console.log("6. " + pizzaLista);
 }
 
-app();
-comprarMasa();
-preHeat();
-amasado();
-add();
-heat();
-comer();
+function app() {
+    comprarMasa()
+    preHeat()
+    amasado()
+    add()
+    heat()
+    comer()
+}
+app()
