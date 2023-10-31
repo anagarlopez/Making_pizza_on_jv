@@ -1,11 +1,11 @@
-import { deliverPizza } from "./deliverPizza";
+import { deliverPizza } from "./deliverPizza.js";
 
 const tropical = {
-    ingredients: ["tomate, mozarella, jamón, piña"],
+    ingredients: ["tomate", "mozarella", "jamón", "piña"],
 };
 
 const barbacoa = {
-    ingredients: ["salsa barbacoa, mozarella, bacon, pollo, maíz"],
+    ingredients: ["salsa barbacoa", "mozarella", "bacon", "pollo", "maíz"],
 };
 
 export function choosePizza(pizzaName) {
