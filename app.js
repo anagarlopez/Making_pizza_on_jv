@@ -1,9 +1,7 @@
-
-
 //Ingredientes
 let masaPizza = "masa fresca";
 let salsaDeTomate = "Salsa de tomate, ";
-let comprarIngredientes = ["queso mozarella, jamón, piña, champi. "];
+let comprarIngredientes = "queso mozarella, jamón, piña, champi. ";
 let extra = "salsa barbacoa";
 let temperatura = " 220C";
 let amasar = "amasar la masa durante 5 minutos";
